@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Tic Tac Toe</h1>
+        
+        <!-- Game Options for X or O -->
+        <div id="game-options" class="game-options">
+            <button id="play-as-x">Play as X</button>
+            <button id="play-as-o">Play as O</button>
+        </div>
+        
+        <!-- Game board -->
+        <div id="board" class="board" style="display: none;">
+            <!-- The board will be dynamically generated here with JavaScript -->
+        </div>
+        
+        <!-- Turn Status -->
+        <p id="turn-status" style="display: none;">Current Turn: <span id="current-player"></span></p>
+        
+        <!-- Reset Game Button -->
+        <button id="reset-button" style="display: none;">Reset Game</button>
+    </div>
+    
+    <script src="/static/script.js"></script>
+</body>
+</html>
