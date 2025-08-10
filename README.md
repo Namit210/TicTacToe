@@ -2,6 +2,8 @@
 
 A web-based Tic Tac Toe game with an unbeatable AI opponent built using Flask and vanilla JavaScript. The AI uses the minimax algorithm to make optimal moves, ensuring it never loses.
 
+## Open in browser : https://amit2026.pythonanywhere.com/
+
 ## Features
 
 - **Interactive Web Interface**: Clean, responsive design with clickable game board
